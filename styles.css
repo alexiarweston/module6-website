@@ -41,9 +41,16 @@ a {
 }
 
 /* ID SELECTOR */
+#header {
+    background-color: #12512578;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #7f7e7e;
+}
 #git_header {
     background-color: #12512578;
     padding: 10px;
+    border-radius: 8px;
     border-bottom: 2px solid #7f7e7e;
 }
 
