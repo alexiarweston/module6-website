@@ -83,12 +83,6 @@ a {
     color: #333;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    padding: 20px;
-}
 
 /* RELATIONAL SELECTOR */
 main>p {
