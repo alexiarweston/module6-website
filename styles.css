@@ -41,33 +41,48 @@ a {
 }
 
 /* ID SELECTOR */
-#header {
-    background-color: #12512578;
-    padding: 10px;
+#navigation {
+    background-image: url('images/catheader.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
     border-radius: 8px;
-    border-bottom: 2px solid #7f7e7e;
-}
-#git_header {
-    background-color: #12512578;
-    padding: 10px;
-    border-radius: 8px;
-    border-bottom: 2px solid #7f7e7e;
+    border: 2px solid #0e644f;
+    padding: 50px;
+    line-height: 2;
+    font-size: 125%;
 }
 
-/* CLASS SELECTOR */
-.first_step {
-    font-weight: bold;
-    color: #333;
-}
-
-/* RELATIONAL SELECTOR */
-section#navigation a:hover {
+#navigation a:hover {
     color: #07352a;
     text-decoration: underline;
     font-size: 125%;
 }
 
+/* CLASS SELECTOR */
+.header {
+    background-color: #12512578;
+    padding: 10px;
+    border-radius: 8px;
+    border-bottom: 2px solid #7f7e7e;
+}
+
+.first-text {
+    font-weight: bold;
+    color: #333;
+}
+
+/* RELATIONAL SELECTOR */
+main>p {
+    text-align: center;
+    border: thickoutset #0e644f;
+    padding: 10px;
+}
+
 /* COMBINATION SELECTOR */
-h1, h2, h3 {
-    color: #3a8775;
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    color: #0d3d32;
 }
