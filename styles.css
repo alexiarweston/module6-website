@@ -51,12 +51,43 @@ a {
     padding: 50px;
     line-height: 2;
     font-size: 125%;
+    text-align: center;
 }
 
-#navigation a:hover {
+#navigation ul {
+    list-style-type: none;
+    padding: 1em 0;
+    border-top: 2px solid #0e644f;
+    border-bottom: 2px solid #0e644f;
+}
+
+#navigation ul li {
+    display: inline-block;
+    padding: 0 1.5em;
+}
+
+#navigation ul a {
+    display: inline-block;
+}
+
+#navigation ul a:hover {
     color: #07352a;
-    text-decoration: underline;
-    font-size: 125%;
+    transition: all 1s;
+}
+
+#navigation ul ul li {
+    display: block;
+}
+
+#navigation li ul {
+    display: none;
+    background-color: #f0f8ff;
+    border: 2px solid #0e644f;
+    border-radius: 8px;
+}
+
+#navigation li:hover ul {
+    display: block;
 }
 
 #container {
@@ -92,8 +123,9 @@ main>p {
 }
 
 /* COMBINATION SELECTOR */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: bold;
     color: #0d3d32;
 }
-
