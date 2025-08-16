@@ -40,17 +40,6 @@ a {
     text-decoration: none;
 }
 
-article {
-    column-count: 2;
-    column-gap: 35px;
-    column-rule: 2px solid #0e644f;
-    padding: 20px;
-    margin: 20px;
-    background-color: #f0f8ff;
-    border-radius: 8px;
-    border: 2px solid #0e644f;
-}
-
 /* ID SELECTOR */
 #navigation {
     background-image: url('images/catheader.jpg');
@@ -68,6 +57,17 @@ article {
     color: #07352a;
     text-decoration: underline;
     font-size: 125%;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    border: 2px solid #0e644f;
 }
 
 /* CLASS SELECTOR */
@@ -98,9 +98,8 @@ main>p {
 }
 
 /* COMBINATION SELECTOR */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-weight: bold;
     color: #0d3d32;
 }
+
